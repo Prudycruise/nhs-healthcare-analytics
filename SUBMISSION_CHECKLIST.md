@@ -22,22 +22,22 @@
 
 - [x] Example analysis schema documented
 - [x] Core analytical SQL queries added
-- [ ] Validate queries against the final cleaned table/database
+- [x] Validate queries against the final cleaned table/database
 
 ## Excel
 
 - [x] Excel workflow documented
-- [ ] Create final Excel workbook
-- [ ] Add PivotTables/charts
-- [ ] Add workbook to `excel/`
+- [x] Create final Excel workbook
+- [x] Add PivotTables/charts
+- [x] Add workbook to `excel/`
 
 ## Power BI
 
 - [x] Dashboard specification documented
 - [x] Suggested DAX measures documented
-- [ ] Build local Power BI dashboard
-- [ ] Validate visuals and filters
-- [ ] Add `.pbix` and/or dashboard screenshots to the repository
+- [x] Build local Power BI dashboard
+- [x] Validate visuals and filters
+- [x] Add `.pbix` and/or dashboard screenshots to the repository
 
 ## Before sending for trainer review
 
