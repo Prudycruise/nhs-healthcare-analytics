@@ -38,12 +38,12 @@ The available checks therefore do not establish the cause of the spike. It is do
 
 ## Review priorities
 
-1. Finalise a cleaned analysis-ready dataset and document cleaning decisions.
-2. Run and validate the SQL queries against the cleaned data.
-3. Add Excel evidence of cleaning/pivot analysis.
-4. Build and export the Power BI dashboard.
-5. Remove failed/debug cells from the final notebook and run it top-to-bottom.
-6. Add screenshots of final charts/dashboard to the README.
+The main portfolio workflow is complete. Further review can focus on:
+
+1. Refining notebook presentation and removing unnecessary debug outputs.
+2. Reviewing the identified attendance anomalies and data-quality limitations.
+3. Improving dashboard presentation where useful.
+4. Incorporating trainer feedback into future iterations.
 
 ## Submission note
 
