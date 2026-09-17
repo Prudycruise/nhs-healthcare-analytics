@@ -40,7 +40,11 @@ Inspection identified issues that should be handled or documented during cleanin
 
 ## Status
 
-This is a working portfolio submission. The core Python exploration and repository structure are in place; SQL, Excel, Power BI and final cleaning artefacts are being developed iteratively and may be refined following review.
+The core portfolio project is complete and ready for trainer review. The cleaned dataset contains 27,108 records and is used across the Python, SQL, Excel and Power BI stages of the workflow.
+
+Python was used for data inspection, cleaning, exploratory analysis and anomaly investigation. The cleaned data was loaded into SQLite and the analytical SQL queries were executed successfully against the final dataset. An Excel workbook was produced with analysis tables and charts, and a Power BI dashboard was created to present headline attendance metrics, attendance trends, top NHS organisations and long-wait patterns.
+
+The project may be refined further following trainer feedback.
 
 ## Key principle
 
