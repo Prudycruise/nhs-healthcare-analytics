@@ -1,34 +1,25 @@
-# Power BI Dashboard Plan
+# Power BI Dashboard
 
-This folder is reserved for the Power BI stage of the NHS Healthcare Analytics project.
+This folder contains the Power BI dashboard developed for the NHS Healthcare Analytics project using the cleaned A&E dataset.
 
-## Dashboard objectives
+## Dashboard purpose
 
-The dashboard is intended to provide an accessible summary of A&E activity and performance using the cleaned dataset produced during the project.
+The dashboard provides an accessible summary of A&E activity and long-wait patterns across NHS organisations.
 
-## Planned visuals
+## Dashboard visuals
 
-- KPI card: total A&E attendances
-- KPI card: average percentage seen within four hours
-- Line chart: total attendances by month
-- Bar chart: top NHS organisations by attendance
-- Department comparison: Type 1, Type 2 and Type 3 attendances
-- Trend visual: four-hour performance over time
-- Table/bar chart: patients spending more than 12 hours from decision to admit to admission
-- Date and organisation filters where appropriate
+- KPI card showing total A&E attendances
+- KPI card showing patients spending more than 12 hours from decision to admit to admission
+- Line chart showing A&E attendance over time
+- Bar chart showing the top 10 NHS organisations by total A&E attendance
+- Bar chart showing organisations with the highest number of patients waiting more than 12 hours
 
-## Suggested measures
+## Data source
 
-```DAX
-Total Attendances = SUM('AE Attendance'[Total attendances])
-
-Average 4 Hour Performance = AVERAGE('AE Attendance'[Percentage in 4 hours or less (all)])
-
-Patients Over 12 Hours = SUM('AE Attendance'[Number of patients spending >12 hours from decision to admit to admission])
-```
+The dashboard uses `data/cleaned/AE_attendances_cleaned.csv`, produced during the Python data-cleaning stage of the project.
 
 ## Submission status
 
-The analytical questions and dashboard specification are documented. The `.pbix` dashboard is a local Power BI deliverable and should be added here once built and reviewed.
+The Power BI dashboard has been completed and saved as `NHS_AE_Dashboard.pbix`.
 
-The dashboard should not assign causes to unusual attendance changes without supporting evidence; anomalous periods identified in Python should instead be highlighted for further investigation.
+The dashboard presents patterns in the available data without assigning unsupported causes to unusual changes in attendance.
